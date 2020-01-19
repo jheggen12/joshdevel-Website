@@ -8,6 +8,7 @@ https://github.com/jheggen12
 <html>
   <head>
     <title>Leave a comment</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body> 
      <nav>
@@ -28,7 +29,7 @@ https://github.com/jheggen12
         <label for="lastname">Last Name: </label>
         <input id="lastname" name="lastname" type="text" minlength="2" maxlength="30" pattern="[a-zA-Z]" title="Only letters allowed">
         <label for="Post">Enter your post here: </label>
-        <textarea id="Post" name="Post" rows="5" cols="40">
+        <textarea id="Post" name="Post" rows="5" cols="40" minlength="10" title="Your post must be at least 10 characters" required>
         </textarea>
         <br>
         <input type="submit" value="Submit my Post!">
