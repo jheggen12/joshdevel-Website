@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--
+Viewing source? I'm open source! Check me out on GitHub!
+https://github.com/jheggen12
+-->
+
+<html>
+  <title>Leave a comment</title>
+  <body> 
+     <nav>
+       <ul>
+         <li><a href="./Home.html">Home</a></li>
+         <li><a href="./Comments.html">Comments</a></li>
+         <li><a href="./AboutMe.html">About Me</a></li>
+       </ul>
+     </nav>
+     <header>
+       <h1>Josh's Website</h1>
+     </header>
+     <main>
+      <p>Feel free to leave a comment or learn more about me.</p>
+      <form>
+        <label for="firstname">First Name (required): </label>
+        <input id="firstname" name="firstname" type="text" minlength="2" maxlength="30" pattern="[a-zA-Z]+" title="Only letters allowed" required>
+        <label for="lastname">Last Name: </label>
+        <input id="lastname" name="lastname" type="text" minlength="2" maxlength="30" pattern="[a-zA-Z]" title="Only letters allowed">
+        <label for="Post">Enter your post here: </label>
+        <textarea id="Post" name="Post" rows="5" cols="40">
+        </textarea>
+        <br>
+        <input type="submit" value="Submit my Post!">
+      </form>
+    </main>
+  </body>
+</html
